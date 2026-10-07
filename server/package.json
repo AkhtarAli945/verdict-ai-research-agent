@@ -1,0 +1,26 @@
+{
+  "name": "verdict-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "@langchain/core": "^1.2.16",
+    "@langchain/groq": "^1.3.1",
+    "@langchain/langgraph": "^1.4.19",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.0",
+    "multer": "^2.4.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
